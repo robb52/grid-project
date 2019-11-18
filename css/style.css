@@ -8,6 +8,7 @@ body {
   line-height: 1.6;
 }
 
+
 h1, h2, strong {
   font-weight: 700;
 }
@@ -22,6 +23,13 @@ h1, h2, strong {
   margin-bottom: 0;
 }
 
+.section-title {
+  font-size: 1.125rem;
+  color: #000;
+  margin-top: 1.25em;
+}
+
+
 .btn {
   padding: .5em 1.75em;
   font-weight: 700;
@@ -34,9 +42,14 @@ h1, h2, strong {
   justify-self: start;
 }
 
-.hero {
+
+.main-grid {
   display: grid;
   grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
+}
+
+
+.hero {
   background-image: url(../images/logo-4.jpg);
   padding: 4em 0;
   color: #fff;
@@ -45,3 +58,19 @@ h1, h2, strong {
 .hero > * {
   grid-column: 2 / -2;
 }
+
+
+.info {
+  padding: 4em 0;
+  text-align: center;
+}
+
+.col {
+  grid-column: 2 / -2;
+}
+
+
+
+
+
+
