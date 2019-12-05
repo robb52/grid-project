@@ -30,7 +30,7 @@
           <ul class="nav-list">
             <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
             <li class="nav-item"><a href="about.html" class="nav-link">about us</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link current">contact</a></li>
           </ul>
         </nav>
 
@@ -50,8 +50,19 @@
       </div>
 
       <div class="main-text">
-        
-      
+        <form class="contact-form" action="#" method="POST">
+          <label  class="fname-label" for="fname">First Name</label>
+          <input  class="fname-input" id="fname" type="text">
+
+          <label  class="lname-label" for="lname">Last Name</label>
+          <input  class="lname-input" id="lname" type="text">
+
+          <label  class="message-label" for="message">Message</label>
+          <textarea  class="message-textarea" id="message"></textarea>
+
+          <button class="btn btn-primary btn-form">Send</button>
+        </form>
+    
     </main>
 
 
